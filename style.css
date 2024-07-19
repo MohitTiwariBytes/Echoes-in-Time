@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.event {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden; /* To ensure children do not overflow */
+}
+
+.event h2, .event p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 1s, opacity 1s;
+}
+
+.event h2 {
+    margin-top: 0;
+}
+
+.event p {
+    margin: 10px 0 0;
+}
