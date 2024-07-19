@@ -1,1 +1,1 @@
-A simple HTML/JS/CSS starter template
+An animated site where you can get to know about various events in the history! 
